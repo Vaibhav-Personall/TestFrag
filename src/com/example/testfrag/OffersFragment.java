@@ -14,14 +14,14 @@ import android.widget.LinearLayout;
 public class OffersFragment extends Fragment
 {
    private static final String TAG = "OffersFragment";
-   SectionsPagerAdapter1 mSectionsPagerAdapter;
+   SectionsPagerAdapter9 mSectionsPagerAdapter;
    ViewPager mViewPager;
 
    @Override
    public void onCreate(Bundle savedInstanceState)
    {
       super.onCreate(savedInstanceState);
-      mSectionsPagerAdapter = new SectionsPagerAdapter1();
+      mSectionsPagerAdapter = new SectionsPagerAdapter9();
       LayoutInflater inflater = (LayoutInflater) getActivity().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
       LinearLayout ll = (LinearLayout) inflater.inflate(R.layout.offers, null);
       mViewPager = (ViewPager) ll.findViewById(R.id.pager1);
@@ -32,14 +32,14 @@ public class OffersFragment extends Fragment
    @Override
    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
    {
-      LinearLayout l = (LinearLayout) inflater.inflate(R.layout.offers, container, false);
-      return l;
+      // TODO Auto-generated method stub
+      return inflater.inflate(R.layout.offers, container, false);
    }
 
-   public class SectionsPagerAdapter1 extends PagerAdapter
+   public class SectionsPagerAdapter9 extends PagerAdapter
    {
 
-      public SectionsPagerAdapter1()
+      public SectionsPagerAdapter9()
       {
          Log.d(TAG, "SectionsPagerAdapter1 Constructor ::");
       }
