@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/cardsssssssssssssssssssssssssss"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <fragment
+            android:id="@+id/cardsFragment1"
+            android:tag="ASD"
+            android:name="com.example.testfrag.CardsFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            tools:layout="@layout/cards_info" />
+
+   <!--      <fragment
+            android:id="@+id/cards_info_fragment"
+            android:name="com.example.testfrag.CardInfoFragament"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            tools:layout="@layout/cards" />
+ -->
+    </RelativeLayout>
+
+<!--     <fragment
+        android:id="@+id/transactionsFragment"
+        android:name="com.example.testfrag.TransactionsFragment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        tools:layout="@layout/transactions" />
+
+    <fragment
+        android:id="@+id/transaction_detail_fragment"
+        android:name="com.example.testfrag.TransactionDetailsFragment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        tools:layout="@layout/transaction_detail" />
+ -->
+</LinearLayout>
