@@ -85,8 +85,9 @@ public class OffersFragment extends Fragment
       @Override
       public Object instantiateItem(ViewGroup container, int position)
       {
+         Log.d(TAG, "instantiateItem ::" + position);
          LayoutInflater inflater = (LayoutInflater) getActivity().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-         View layout = inflater.inflate(R.layout.offer, null);
+         View layout = inflater.inflate(R.layout.cards_info, null);
          mViewPager.addView(layout);
          Log.d(TAG, "instantiateItem ::" + position);
          return layout;

@@ -191,7 +191,7 @@ public class HomeScreen extends Activity implements ActionBar.TabListener
 
             LayoutInflater inflater = (LayoutInflater) HomeScreen.this
                   .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            View layout = inflater.inflate(R.layout.dd, null);
+            View layout = inflater.inflate(R.layout.sssssss, null);
 
             //         Button button1 = (Button) layout.findViewById(R.id.button1);
             //         button1.setText("111111111111111");
